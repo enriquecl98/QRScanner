@@ -9,7 +9,7 @@ function App() {
   return (
      <Layout>
       <Routes>
-        <Route path="/" element={<Navigate to="/scanner" replace />} />
+        {/* <Route path="/" element={<Navigate to="/scanner" replace />} /> */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/scanner" element={<QRScanner />} />
         {/* <Route path="/history" element={<RecentHistory />} /> */}
