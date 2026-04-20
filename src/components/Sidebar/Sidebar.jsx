@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Box, Typography } from "@mui/material";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import QrCodeScannerIcon from "@mui/icons-material/QrCodeScanner";
+import ScienceIcon from "@mui/icons-material/Science";
 import "./Sidebar.scss";
 
 const navItems = [
@@ -15,6 +16,11 @@ const navItems = [
     label: "QR Scanner",
     path: "/scanner",
     icon: <QrCodeScannerIcon />,
+  },
+  {
+    label: "Experiment",
+    path: "/experiment",
+    icon: <ScienceIcon />,
   },
 ];
 
